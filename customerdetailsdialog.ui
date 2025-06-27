@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomerDetailsDialog</class>
+ <widget class="QDialog" name="CustomerDetailsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="travelGroupBox">
+     <property name="title">
+      <string>Kunde</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>24</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kunden-ID:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>66</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name des Kunden:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="customerId">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>40</y>
+        <width>74</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="customerName">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>82</y>
+        <width>121</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="travelTable">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>108</y>
+        <width>281</width>
+        <height>121</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="bookingGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>240</y>
+        <width>331</width>
+        <height>283</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Reise</string>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>24</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Reise-ID:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>66</y>
+         <width>75</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Buchungen:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="bookingId">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>40</y>
+         <width>61</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="bookingTable">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>82</y>
+         <width>281</width>
+         <height>192</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
